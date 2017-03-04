@@ -3,7 +3,7 @@
 // http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
 // Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 
-class Graph {
+class DFSGraph {
 
     private $edges;
 
@@ -16,6 +16,9 @@ class Graph {
     }
 
     public function DFS($s) {
+
+        echo "DFS from vertex $s: ";
+
         $stack = new SplStack();
         $stack->push($s);
 

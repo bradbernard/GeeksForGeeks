@@ -3,7 +3,7 @@
 // http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
 // Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 
-class Graph {
+class BFSGraph {
 
     private $edges;
 
@@ -16,6 +16,9 @@ class Graph {
     }
 
     public function BFS($s) {
+
+        echo "BFS from vertex $s: ";
+
         $queue = new SplQueue();
         $queue->enqueue($s);
 
