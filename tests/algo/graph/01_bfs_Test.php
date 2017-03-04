@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../../../src/algo/graph/01_bfs.php';
 
-class BFSGraphTest extends PHPUnit_Framework_Testcase 
+class BFSGraphTest extends PHPUnit_Framework_TestCase 
 {
     public function testBFS() {
 

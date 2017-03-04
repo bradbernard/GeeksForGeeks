@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../../../src/algo/graph/02_dfs.php';
 
-class DFSGraphTest extends PHPUnit_Framework_Testcase 
+class DFSGraphTest extends PHPUnit_Framework_TestCase 
 {
     public function testDFS() {
 
