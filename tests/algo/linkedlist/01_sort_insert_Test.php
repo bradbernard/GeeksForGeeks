@@ -6,13 +6,13 @@ class SortInsertLLTest extends PHPUnit_Framework_TestCase
 {
     public function testSortInsert() {
 
-        $ll = new LinkedList();
-        $ll->sortedInsert(new Node(5));
-        $ll->sortedInsert(new Node(2));
-        $ll->sortedInsert(new Node(3));
-        $ll->sortedInsert(new Node(1));
-        $ll->sortedInsert(new Node(7));
-        $ll->sortedInsert(new Node(4));
+        $ll = new SISinglyLinkedList();
+        $ll->sortedInsert(new SINode(5));
+        $ll->sortedInsert(new SINode(2));
+        $ll->sortedInsert(new SINode(3));
+        $ll->sortedInsert(new SINode(1));
+        $ll->sortedInsert(new SINode(7));
+        $ll->sortedInsert(new SINode(4));
         
         $ll->out();
 

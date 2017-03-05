@@ -3,7 +3,7 @@
 // http://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/
 // Time Complexity: O(n)
 
-class Node {
+class SINode {
 
     public $data;
     public $next;
@@ -14,7 +14,7 @@ class Node {
     }
 }
 
-class LinkedList {
+class SISinglyLinkedList {
 
     public $head;
 
