@@ -1,6 +1,7 @@
 <?php
 
 // http://www.geeksforgeeks.org/delete-a-given-node-in-linked-list-under-given-constraints/
+// Time Complexity: O(N)
 
 class DELNode {
 
@@ -15,12 +16,6 @@ class DELNode {
 }
 
 class DELSinglyLinkedList {
-
-    private $head;
-
-    public function __construct() {
-        $this->head = NULL;
-    }
 
     public function deleteNode($head, $node) {
         if($head === $node) {
